@@ -6,13 +6,14 @@
 #    By: falarcon <falarcon@student.42malaga.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/10/27 09:55:09 by falarcon          #+#    #+#              #
-#    Updated: 2023/01/25 11:25:00 by falarcon         ###   ########.fr        #
+#    Updated: 2023/02/14 03:58:09 by falarcon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	libftprintf.a
-SRC		=		ft_printf.c
-		=		ft_printf_utils.c	
+
+SRC		=	ft_printf.c
+		=	ft_printf_utils.c	
 
 OBJS	= ${src:.c=.o}				#convierte los .c en .o
 
@@ -39,8 +40,5 @@ fclean	: 	clean					#para ejecutar la recla clean y luego eliminar la librería
 			${RM} ${NAME}
 
 re		:	fclean all 				#especifica que se deben ejecutar las acciones de las reglas fclean y all
-
-bonus	;	${OBJS}
-			${AR} ${NAME} ${OB}
 
 .PHONY	:	all clean fclean re		#especifica que las reglas no son archivos, sino acciones a realizar
