@@ -19,7 +19,7 @@
 
 /*ft_printf.c*/
 int		ft_printf(char const *format, ...);
-void	ft_format(const char *str, va_list ap, int i, int *printed);
+void	ft_format(const char *str, va_list args, int i, int *printed);
 void	ft_printchar(char c, int *printed);
 
 /*ft_printf_utils.c*/
