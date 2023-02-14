@@ -6,7 +6,7 @@
 /*   By: falarcon <falarcon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 03:35:53 by falarcon          #+#    #+#             */
-/*   Updated: 2023/02/14 20:49:58 by falarcon         ###   ########.fr       */
+/*   Updated: 2023/02/14 21:46:08 by falarcon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define FT_PRINTF_H
 
 # include <stdio.h>
-# include <unisdt.h>
+# include <unistd.h>
 # include <stdarg.h>
 
 /*ft_printf.c*/
