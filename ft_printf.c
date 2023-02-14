@@ -6,7 +6,7 @@
 /*   By: falarcon <falarcon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 03:41:14 by falarcon          #+#    #+#             */
-/*   Updated: 2023/02/14 03:41:14 by falarcon         ###   ########.fr       */
+/*   Updated: 2023/02/14 20:45:54 by falarcon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,7 +64,3 @@ void	ft_printchar(char c, int *printed)
 	printf("Primero el caracter: %d\n", 45);
 
 }*/
-
-
-
-
