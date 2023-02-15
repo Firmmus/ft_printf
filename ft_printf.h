@@ -6,16 +6,16 @@
 /*   By: falarcon <falarcon@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 03:35:53 by falarcon          #+#    #+#             */
-/*   Updated: 2023/02/14 03:35:53 by falarcon         ###   ########.fr       */
+/*   Updated: 2023/02/14 21:46:08 by falarcon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINTF.h
-#define FT_PRINTF.h
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 
-#include <stdio.h>
-#include <unisdt.h>
-#include <stdarg.h>
+# include <stdio.h>
+# include <unistd.h>
+# include <stdarg.h>
 
 /*ft_printf.c*/
 int		ft_printf(char const *format, ...);
